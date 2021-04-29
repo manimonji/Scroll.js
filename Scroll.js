@@ -1,4 +1,5 @@
-function scrolltoelement(Selector,speed,callback){
+//selector
+function sel(Selector){
     var sel_id = Selector.match("#");
     var sel_cl = "";
     if(sel_id == ""){
@@ -13,8 +14,12 @@ function scrolltoelement(Selector,speed,callback){
     }else{
     var sel_el = document.getElementsByTagName(sel_va);
     }
+    //scrolltoelement
+this.scrolltoelement = function(speed,callback){
+
     var el_top  =  sel_el.offsetTop;
     
     window.scrollTo(0, el_top);
- 
+    
+}
 }
