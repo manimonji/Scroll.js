@@ -1,6 +1,5 @@
 function sel(Selector){
     var sel_id = Selector.match("#");
-    var sel_cl = "";
     if(sel_id == ""){
     var sel_cl = Selector.match(".");
     }
