@@ -1,1 +1,27 @@
-
+div{
+    position:relative;
+    top:1500px;
+    left:575px;
+    width:275px;
+    font-size:50px;
+    color:red;
+    margin-bottom:27px;
+    margin-right:27px;
+    background-color: black;
+    padding-left:20px;
+   
+    border-radius:50px;
+  }
+  #btn{
+    position:relative;
+    left:550px;
+    font-size:50px;
+    margin-top:20px;
+  }
+  #btn2{
+    position:relative;
+    top: 1300px; 
+    left:185px;
+    font-size:50px;
+    margin-top:20px;
+  }
